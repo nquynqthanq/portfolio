@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm qthawq</h1>
-<h3 align="center">About me: Second-year student at the University of Information Technology - Vietnam National University Ho Chi Minh City (UIT). I am a passionate learner with an insatiable thirst for knowledge and a penchant for taking on personal projects. As a student of Information Technology, I strive to stay abreast of current trends and technologies. I am confident in my ability to code for web and mobile applications and also possess skills as a UI/UX designer.</h3>
+<h3 align="center">About me: Second-year student at the University of Information Technology - Vietnam National University Ho Chi Minh City (UIT). I am a passionate learner with an insatiable thirst for knowledge and a penchant for taking on personal projects. As a student of Information Technology, I strive to stay abreast of current trends and technologies.Therefore, I am confident in my ability to code for web and mobile applications and also possess skills as a UI/UX designer.</h3>
 
 - 🌱 I’m currently learning **HTML, CSS, Three.js and so on.**
 
