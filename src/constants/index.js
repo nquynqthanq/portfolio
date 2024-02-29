@@ -23,6 +23,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    snapgram,
+    OnlyFood,
+    adviceapp,
   } from "../assets";
   
   export const navLinks = [
@@ -198,67 +201,68 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Snapgram",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Snapgram is a social media application that allows users to share photos and videos with their followers. Users can also interact with posts by liking, commenting, and sharing them, fostering a vibrant community of content creators and consumers.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "node.js",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "appwrite",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: snapgram,
+      source_code_link: "https://github.com/qthawq100dayswithreact/social-media-application/tree/main",
     },
     {
-      name: "Job IT",
+      name: "OnlyFood",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "OnlyFood is a comprehensive restaurant management application designed to streamline operations and enhance customer experiences. It facilitates tasks such as order management, inventory tracking, employee scheduling, and customer relationship management.",
       tags: [
         {
-          name: "react",
+          name: "C Sharp",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "WPF",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "MongoDB",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: OnlyFood,
+      source_code_link: "https://github.com/DoAnLapTrinhTrucQuanUIT/IT008.O13",
     },
+
     {
-      name: "Trip Guide",
+      name: "AdviceNow",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "AdviceNow is a simple web application that provides random pieces of advice to users seeking guidance or inspiration. Users can click a button to receive a new piece of advice instantly.",
       tags: [
         {
-          name: "nextjs",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: adviceapp,
+      source_code_link: "https://github.com/qthawq100dayswithreact/GivingAdvice/tree/main",
     },
   ];
   

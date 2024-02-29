@@ -29,6 +29,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import snapgram from "./snapgram.png";
+import OnlyFood from "./OnlyFood.png";
+import adviceapp from "./adviceapp.png";
 
 export {
   logo,
@@ -59,4 +62,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  snapgram,
+  OnlyFood,
+  adviceapp,
 };
