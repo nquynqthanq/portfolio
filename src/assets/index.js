@@ -9,6 +9,7 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
+import firebase from "./tech/firebase.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -25,6 +26,8 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import fived from "./company/fived.png";
+import onlyfood from "./company/onlyfood.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -65,4 +68,7 @@ export {
   snapgram,
   OnlyFood,
   adviceapp,
+  firebase,
+  fived,
+  onlyfood,
 };

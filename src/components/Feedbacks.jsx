@@ -1,9 +1,9 @@
-import { motion } from 'framer-motion'
+import { motion } from 'framer-motion';
 
-import { styles } from '../styles'
-import { SectionWrapper } from "../hoc"
-import { fadeIn, textVariant } from '../utils/motion'
-import { testimonials } from '../constants'
+import { styles } from '../styles';
+import { SectionWrapper } from "../hoc";
+import { fadeIn, textVariant } from '../utils/motion';
+import { testimonials } from '../constants';
 
 const FeedbackCard = ({
   index,
@@ -42,7 +42,6 @@ const FeedbackCard = ({
   </motion.div>
 );
 
-
 const Feedbacks = () => {
   return (
     <div className={`mt-12 bg-black-100 rounded-[20px]`}>
@@ -55,12 +54,16 @@ const Feedbacks = () => {
         </motion.div>
       </div>
       <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
-        {testimonials.map((testimonial, index) => (
-          <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
-        ))}
+        {testimonials.length > 0 ? (
+          testimonials.map((testimonial, index) => (
+            <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
+          ))
+        ) : (
+          <p className="text-left text-white w-full text-[30px]">No experiences available at the moment.</p>
+        )}
       </div>
     </div>
   );
 };
 
-export default SectionWrapper(Feedbacks, "")
+export default SectionWrapper(Feedbacks, "");
