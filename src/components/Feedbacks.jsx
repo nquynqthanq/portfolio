@@ -59,7 +59,7 @@ const Feedbacks = () => {
             <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
           ))
         ) : (
-          <p className="text-left text-white w-full text-[30px]">No experiences available at the moment.</p>
+          <p className="text-left text-white w-full text-[30px]">No feedbacks available at the moment, <br className="sm:block hidden"/> Work with me to be the first to leave one!</p>
         )}
       </div>
     </div>
